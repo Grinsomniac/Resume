@@ -38,19 +38,23 @@ h3 {
     justify-content: space-between;
 }
 
+/* Position title/Degree Title */
 .title {
     font-weight: bold;
+    justify-content: space-between;
 }
 
+/* position/education duration */
 .duration {
     text-align: right;
     margin-left: auto; /* Ensures the duration spans to the rightmost end */
     padding-right: 25px;
+    font-weight: bold;
 }
 
-.company-name {
+/* Company/School Name */
+.org-name {
     font-weight: bold;
-    font-size: 1.2em; /* Adjust the size as needed */
     color: var(--color3); /* Optional: Change the color */
     font-size: 1em;
 }
