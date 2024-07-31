@@ -1,0 +1,60 @@
+:root {
+    --color1: #FFFFFF;
+    --color2: #C1D2F0;
+    --color3: #6F95DC;
+    --color4: #2D5EB9;
+    --color5: #003EB3;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: var(--color5);
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+h3 {
+    color: var(--color4);
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+#linksList {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+#linksList li {
+    margin: 0 10px;
+}
+
+.position {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Position title/Degree Title */
+.title {
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+/* position/education duration */
+.duration {
+    text-align: right;
+    margin-left: auto; /* Ensures the duration spans to the rightmost end */
+    padding-right: 25px;
+    font-weight: bold;
+}
+
+/* Company/School Name */
+.org-name {
+    font-weight: bold;
+    color: var(--color3); /* Optional: Change the color */
+    font-size: 1em;
+}
